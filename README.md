@@ -2,11 +2,14 @@
 
 > An ML model scores the risk; a grounded LLM writes the analyst's report; a human decides.
 
-![status](https://img.shields.io/badge/status-planned-lightgrey) ![phase](https://img.shields.io/badge/sprint-Weeks%205--6-blue)
+![status](https://img.shields.io/badge/status-design%20stage-lightgrey) ![sprint](https://img.shields.io/badge/sprint-Weeks%205--6-blue) ![project](https://img.shields.io/badge/portfolio-03%2F08-0891b2)
 
-**Category:** ML + GenAI · **Domain:** Banking · **Stack:** Python · XGBoost · SHAP · LangGraph · RAG
-
-Project 03/08 of my *Data & AI × Business Consulting* portfolio. 🚧 **Design stage, no implementation yet.**
+| | |
+|---|---|
+| **Category** | ML + GenAI |
+| **Domain** | Banking |
+| **Stack** | Python · XGBoost · SHAP · LangGraph · RAG |
+| **Status** | 🚧 Scoped — implementation not started |
 
 ## Overview
 
@@ -15,6 +18,13 @@ A hybrid system for loan-default risk. A calibrated ML model produces the score 
 ## Business problem
 
 Risk analysts review large volumes of financial data across sources. The process is slow, manual and hard to scale, yet decisions must stay explainable and human-owned.
+
+## What this project demonstrates
+
+- Combining classical ML with LLMs in a regulated domain
+- Calibrated, explainable risk scoring
+- Grounded generation with citations and hallucination control
+- Human-in-the-loop design for high-stakes decisions
 
 ## Key points
 
@@ -63,14 +73,16 @@ Human review: approve / reject / send back
 data/  notebooks/  src/{models,rag,agent}  app/  eval/  docs/
 ```
 
-## Status
+## Roadmap
 
 - [x] Scope and README
-- [ ] Data
-- [ ] Implementation
-- [ ] Evaluation & business impact
-- [ ] Demo and write-up
+- [ ] Data collection / generation
+- [ ] Core implementation
+- [ ] Evaluation and business-impact estimate
+- [ ] Demo, write-up and interview notes
 
 ---
 
-*Author: Amine Charrou · Final-year Data Science & AI engineering student, ENSA Agadir*
+Part of my **Data & AI × Business Consulting** portfolio, a 16-week sprint of 8 projects going from data and BI to ML, GenAI, agents, automation and AI strategy. See all projects on my [GitHub profile](https://github.com/Amine-Charrou).
+
+*Amine Charrou · Final-year Data Science & AI engineering student, ENSA Agadir · [LinkedIn](https://www.linkedin.com/in/amine-charrou/)*
